@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.contenedor{
+    background-image: url(./imagen/design1_image2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 15rem;
+    position: relative;
+    top: -100px;
+    border-radius: 20px;
+}
+header h1{
+    color: rgb(194, 3, 3);
+    font-size: 40px;
+    margin-top: 100px;
+    padding: 10px;
+    position: relative;
+    top:-12px; left: -10px;
+    width: 44vw;
+}
+
+h2{
+background-color: rgb(194, 3, 3);
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: -99px;
+}
+
+.contenedorhijo img{
+    background-color: rgba(0, 0, 0, 0.908);
+  
+    width: 109px;
+    height: 109px;
+    display: flex;
+    position: relative;
+    top: -83px; left: 1200px;
+}
+main{
+    min-height: 80vh;
+    width: 89vw;
+    margin-left: 148.5px;
+    margin-top: -51px;
+}
+nav{
+    height: 10px;
+    width: 20vw;
+    display: flex;
+    position: absolute;
+    top: 250px; left: 100px;
+}
+
+nav a{
+    background-color: rgba(0, 0, 0, 0.908);
+    border-radius: 40px;
+    height: 8vh;
+    width: 15vw;
+    text-align: center;
+    padding: 15px;
+    margin-left: 8px; margin: 1px;
+    text-decoration: none;
+    color: white;
+}
+a[href="#"]{
+    background-color: white;
+    color: black;
+}
+.cont, .cont2{
+    text-align: left;
+    width: 100%;
+    padding: 85px;
+}
+.card img{
+    height: 230px;
+    width: 200px;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    top: 10px; left: 30px;
+}
+.card{
+    background-color: rgb(194, 3, 3);
+    border-radius: 20px;
+    width: 50vw;
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+    right: 300px;
+}
+.card h3 {
+    width: 30vw;
+    text-align: left;
+    position: relative;
+    left: 280px;
+}
+.card p{
+    width: 30vw;
+    position: relative;
+    top: -215px; left: 307px;
+}
+.card h3, .card p{
+    margin-top: 1rem;
+    position: relative;
+    top: -220px;
+}
+aside img{
+    height: 330px;
+    width: 452px;
+    object-fit: cover;
+    display: flex;
+    position: absolute;
+    top: 455px; left: 1020px;
+}
+.cont2{
+    position: absolute;
+    top: 350px;
+    width: 60vw;
+}
+.card2{
+    width: 50vw;
+    margin-top: 2rem;
+
+}
+.card2 h3{
+    text-align: left;
+  
+}
+#mail{
+    box-shadow: 10px 10px 10px 10px rgb(194, 3, 3);
+    border-radius: 20px;
+    width: 40vw;
+    height: 20vh;
+    text-align: center;
+    position: absolute;
+    top:480px; left: 350px;
+}
+footer{
+    background-color: rgb(194, 3, 3);
+    border-radius: 20px;
+     height: 8vh;
+    text-align: center;
+    padding: 1rem;
+}
