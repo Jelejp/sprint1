@@ -52,74 +52,52 @@ a[href="#"] {
     color: black;
     text-decoration: none;
 }
-main , #tod{
+main{
     min-height: 90vh;
-    width: 79vw;
+    width: 89vw;
     margin-left: 148.5px;
 }
-.cont, .cont2{
-    text-align: left;
-    width: 100%;
-    padding: 90px;
-}
-.card img{
-    height: 230px;
-    width: 200px;
-    object-fit: cover;
-    display: flex;
-}
-.card{
-    background-color: white;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    width: 50vw;
-    height: 230px;
-    display: inline-block;
-}
-.card h3 {
-    width: 560px;
+section h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
-     
-}
 
-.card p{
-    position: relative;
-    top: -200px; left: 270px;
-}
-.card h3, .card p{
-    margin-top: 1rem;
-    position: relative;
-    top: -220px;
-}
-aside img{
-    height: 330px;
-    width: 452px;
-    object-fit: cover;
-    position: absolute;
-    top: 1000px; left: 1000px;
 
 }
-.cont2{
-    width: 60vw;
-}
-.card2{
-    width: 50vw;
-    margin-top: 2rem;
+article h4{
 
+    text-align: center;
 }
-.card2 h3{
+table{
+    margin: 0 auto;
     text-align: left;
-  
-}
-#mail{
-    width: 40vw;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-left: 148.5px;
 
 }
+table,th,tr,td{
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1.5rem;
+}
+#additional{
+    width: 57vw;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+} 
+.contacto1{
+    width: 30vw;
+    margin: 0 auto;
+}   
+#contactosfooter{
+    width: 40vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+} 
 footer{
     text-align: center;
     padding: 1rem;
